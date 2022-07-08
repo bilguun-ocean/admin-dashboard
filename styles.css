@@ -183,6 +183,8 @@ input[type="search"] {
   padding: 20px 10px;
   border-left: 5px solid orange;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  display: grid;
+
 }
 
 .trending, .announcements{
@@ -236,8 +238,15 @@ footer {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
+.images {
+  justify-self: flex-end;
+}
 
 footer a {
   text-decoration: none;
 
+}
+
+.small-icon {
+  width: 20px;
 }
